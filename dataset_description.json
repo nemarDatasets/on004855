@@ -1,16 +1,22 @@
 {
-    "Name": "FT",
-    "License": "CC0",
-    "Authors": [
-        "Tony Johnson",
-        "Stephen Gordon",
-        "Jon Touryan",
-        "Kevin King"
-    ],
-    "ReferencesAndLinks": [
-        ""
-    ],
-    "BIDSVersion": "1.8.0",
-    "HEDVersion": "8.1.0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds004855.v1.0.0"
+  "Name": "FT",
+  "License": "CC0",
+  "Authors": [
+    "Tony Johnson",
+    "Stephen Gordon",
+    "Jon Touryan",
+    "Kevin King"
+  ],
+  "ReferencesAndLinks": [
+    ""
+  ],
+  "BIDSVersion": "1.8.0",
+  "HEDVersion": "8.1.0",
+  "DatasetDOI": "10.82901/nemar.on004855",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004855.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
