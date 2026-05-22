@@ -7,9 +7,7 @@
     "Jon Touryan",
     "Kevin King"
   ],
-  "ReferencesAndLinks": [
-    ""
-  ],
+  "ReferencesAndLinks": [],
   "BIDSVersion": "1.8.0",
   "HEDVersion": "8.1.0",
   "DatasetDOI": "10.82901/nemar.on004855",
@@ -18,5 +16,13 @@
       "DOI": "doi:10.18112/openneuro.ds004855.v1.0.0"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.2",
+  "DatasetType": "raw",
+  "GeneratedBy": [
+    {
+      "Name": "nemar-cli",
+      "Version": "0.8.8",
+      "CodeURL": "https://github.com/nemar-org/nemar-cli"
+    }
+  ]
 }
