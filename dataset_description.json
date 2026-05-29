@@ -8,7 +8,7 @@
     "Kevin King"
   ],
   "ReferencesAndLinks": [],
-  "BIDSVersion": "1.8.0",
+  "BIDSVersion": "1.11.1",
   "HEDVersion": "8.1.0",
   "DatasetDOI": "10.82901/nemar.on004855",
   "SourceDatasets": [
@@ -17,12 +17,5 @@
     }
   ],
   "Version": "1.0.2",
-  "DatasetType": "raw",
-  "GeneratedBy": [
-    {
-      "Name": "nemar-cli",
-      "Version": "0.8.8",
-      "CodeURL": "https://github.com/nemar-org/nemar-cli"
-    }
-  ]
+  "DatasetType": "raw"
 }
