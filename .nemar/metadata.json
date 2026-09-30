@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "FT",
+  "description": "A placeholder EEG dataset named FT, formatted according to BIDS with HED annotations. The README provides no further information about the experimental paradigm, participants, or recording setup. The dataset is a NEMAR-hosted copy of an OpenNeuro deposit.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,6 +11,17 @@
     "Jon Touryan": {},
     "Kevin King": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "HED"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004855.v1.0.0",
@@ -22,22 +34,22 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004855",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004855",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004855",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "82.8 MB (3 files)"
+    "78.93 MB (3 files)"
   ],
   "formats": [
     ".fdt",
@@ -46,21 +58,6 @@
     ".set",
     ".tsv",
     ".yml"
-  ],
-  "description": "FT is an EEG dataset derived from OpenNeuro ds004855 (v1.0.0). This dataset contains electroencephalography recordings and is production-ready for research use.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "brain activity"
-    },
-    {
-      "term": "neural recording"
-    }
   ],
   "source_hash": "f51618cfe3b78f662d802165e78e9837a18855da35a863afe553604e3ad6dab8"
 }
